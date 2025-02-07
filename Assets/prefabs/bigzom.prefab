@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &8534317085800515194
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 722320758643403020, guid: 052253c82b9f8484b8cc81fe5735f941, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 722320758643403020, guid: 052253c82b9f8484b8cc81fe5735f941, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 722320758643403020, guid: 052253c82b9f8484b8cc81fe5735f941, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 722320758643403020, guid: 052253c82b9f8484b8cc81fe5735f941, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 722320758643403020, guid: 052253c82b9f8484b8cc81fe5735f941, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 722320758643403020, guid: 052253c82b9f8484b8cc81fe5735f941, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 722320758643403020, guid: 052253c82b9f8484b8cc81fe5735f941, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 722320758643403020, guid: 052253c82b9f8484b8cc81fe5735f941, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 722320758643403020, guid: 052253c82b9f8484b8cc81fe5735f941, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 722320758643403020, guid: 052253c82b9f8484b8cc81fe5735f941, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4314946649514222685, guid: 052253c82b9f8484b8cc81fe5735f941, type: 3}
+      propertyPath: speed
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6701001792873606188, guid: 052253c82b9f8484b8cc81fe5735f941, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8188301377837946880, guid: 052253c82b9f8484b8cc81fe5735f941, type: 3}
+      propertyPath: m_Name
+      value: bigzom
+      objectReference: {fileID: 0}
+    - target: {fileID: 9131178331187509997, guid: 052253c82b9f8484b8cc81fe5735f941, type: 3}
+      propertyPath: isinvincible
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects:
+    - {fileID: 4888373878901445898, guid: 052253c82b9f8484b8cc81fe5735f941, type: 3}
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8188301377837946880, guid: 052253c82b9f8484b8cc81fe5735f941, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2614836432207674753}
+  m_SourcePrefab: {fileID: 100100000, guid: 052253c82b9f8484b8cc81fe5735f941, type: 3}
+--- !u!1 &562189727037431418 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8188301377837946880, guid: 052253c82b9f8484b8cc81fe5735f941, type: 3}
+  m_PrefabInstance: {fileID: 8534317085800515194}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2614836432207674753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 562189727037431418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7db70e0ea77f5ac47a8f4565a9406397, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShadowGroup: 0
+  m_ComponentVersion: 1
+  m_HasRenderer: 1
+  m_UseRendererSilhouette: 1
+  m_CastsShadows: 1
+  m_SelfShadows: 0
+  m_ApplyToSortingLayers: 00000000
+  m_ShapePath:
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  m_ShapePathHash: 0
+  m_Mesh: {fileID: 0}
+  m_InstanceId: -625226
+  m_LocalBounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}

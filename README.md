@@ -1,2 +1,1 @@
-# Hanta-run
- 
+SMall Zombie shooter game
